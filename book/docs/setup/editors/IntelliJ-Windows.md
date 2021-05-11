@@ -9,13 +9,13 @@ I have been trying to figure out an optimal IDE setup for working with Plutus sm
 
 There are some trade-offs, which you can assess from the pros and cons given below.
 
-Pros: 
+**Pros**: 
    - Does not need WSL on Windows (WSL is still needed if you want to launch plutus playground due to its dependency on nix-shell) 
    -  Haskell syntax highlighting
    - View and navigate to function definitions
    - One IDE experience if you work on IntelliJ for other projects
 
-Cons:
+**Cons**:
    - Code completion is limited to the same file. _(Maybe there is a workaround for this.)_
    - Certain sections of code causes navigation not work for all code after it in the file. eg: Saw this happen in Value.hs 
  
